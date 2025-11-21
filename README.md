@@ -10,30 +10,49 @@ The purpose of this showcase is to illustrate what CloudState™ produces using 
 
 ## 📁 Included in This Repository
 
-All example artefacts are provided inside the [`examples/`](./examples) directory:
+All synthetic example artefacts are provided inside the [`examples/`](./examples) directory.
+
+---
 
 ### **1. Synthetic Azure Inventory Example**
-**File:** [`examples/CloudState_Azure_DEMO.xlsx`](./examples/CloudState_Azure_DEMO.xlsx)  
-A representative workbook produced by CloudState™ for Azure environments.  
-This demo includes synthetic samples of:
 
-- Resource inventory tables  
-- Tag compliance outputs  
-- Orphaned resource identification  
-- Cost-related flags & governance indicators  
+**Download full workbook (XLSX):**  
+➡️ [CloudState_Azure_DEMO.xlsx](./examples/CloudState_Azure_DEMO.xlsx)
+
+**Quick Preview:**  
+<p align="left">
+  <img src="./examples/CloudState_Azure_VM_Hero.png" alt="CloudState Azure VM inventory preview table showing synthetic subscription, VM, size, OS, and IP address fields." width="850px">
+</p>
+
+This report demonstrates how CloudState™ structures Azure resource data, including:
+
+- Virtual machine inventory  
+- Tag compliance  
+- Orphaned resource detection  
+- Cost hygiene indicators  
 - Subscription-level summaries  
 
-### **2. Synthetic AWS Inventory Example**
-**File:** [`examples/CloudState_AWS_DEMO.xlsx`](./examples/CloudState_AWS_DEMO.xlsx)  
-A fictionalised example report showing how CloudState™ structures AWS resource data, including:
+---
 
-- EC2, S3, EBS, VPC, and IAM insights  
-- Tagging analysis  
+### **2. Synthetic AWS Inventory Example**
+
+**Download full workbook (XLSX):**  
+➡️ [CloudState_AWS_DEMO.xlsx](./examples/CloudState_AWS_DEMO.xlsx)
+
+**Quick Preview:**  
+<p align="left">
+  <img src="./examples/CloudState_AWS_EC2_Hero.png" alt="CloudState AWS EC2 inventory preview table showing synthetic instance IDs, regions, types, states, and IP-related metadata." width="850px">
+</p>
+
+This report demonstrates how CloudState™ structures AWS resource data, including:
+
+- EC2 instance insights  
+- Tagging status  
+- EBS/S3/VPC hygiene signals  
 - Orphan detection  
-- Cost-hygiene signals  
 - Environment-wide overview pages  
 
-These files are provided purely for illustration and contain no real cloud data.
+These screenshots and datasets are entirely synthetic and contain no real cloud data.
 
 ---
 
